@@ -1,0 +1,6 @@
+import pandas as pd
+df1 = pd.read_csv("Data.csv")
+print(df1.mean())
+print("-------------!-------------")
+df2 = df1.loc[1:9:2]
+print(df2.mean())
